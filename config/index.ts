@@ -8,7 +8,7 @@ export const APP_INFO: AppInfo = {
   description: '测试应用描述 🚗 App description',
   copyright: '',
   privacy_policy: '',
-  default_language: 'zh-Hans',
+  default_language: 'en-US',
 }
 
 export const API_PREFIX = '/api'
