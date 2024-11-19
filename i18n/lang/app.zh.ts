@@ -14,7 +14,7 @@ const translation = {
     queryTitle: '查询内容',
     completionResult: '生成结果',
     queryPlaceholder: '请输入文本内容',
-    run: '运行',
+    run: '“运行”改名“生成”',
     copy: '拷贝',
     title: 'AI 智能书写',
     resultTitle: 'AI 书写',
