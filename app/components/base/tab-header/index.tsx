@@ -34,14 +34,14 @@ const TabHeader: FC<ITabHeaderProps> = ({
     </div>
   )
   return (
-    <!-- jamesqi 2024-11-19<div className='flex justify-between border-b border-gray-200 '>
+    <div className='flex justify-between border-b border-gray-200 hidden'>
       <div className='flex space-x-4'>
         {items.filter(item => !item.isRight).map(renderItem)}
       </div>
       <div className='flex space-x-4'>
         {items.filter(item => item.isRight).map(renderItem)}
       </div>
-    </div>-->
+    </div>
   )
 }
 export default React.memo(TabHeader)
