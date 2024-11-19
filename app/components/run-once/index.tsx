@@ -27,7 +27,7 @@ const RunOnce: FC<IRunOnceProps> = ({
   onVisionFilesChange,
 }) => {
   const { t } = useTranslation()
-const showRunOptions = false; // 设置为 false 隐藏选项
+
   const onClear = () => {
     const newInputs: Record<string, any> = {}
     promptConfig.prompt_variables.forEach((item) => {
